@@ -8,7 +8,7 @@ import streamlit as st
 
 
 # Charger les données
-data = pd.read_csv("C:/Users/ousma/Documents/Gomycode/Financial_inclusion_dataset.csv")
+data = pd.read_csv("C:/Users/ousma/PycharmProjects/pythonProject6/Financial_inclusion_dataset.csv")
 print("Quelques informatons de notre base")
 print(data.info())
 #report = ProfileReport(data,title="Financial inclusion")
